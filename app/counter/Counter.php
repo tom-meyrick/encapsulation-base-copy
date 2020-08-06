@@ -11,10 +11,9 @@ class Counter
         $this->count += 1;
     }
 
-    public function count() : Counter
+    public function count() : int
     {
-        $this->count; 
-        return $this;
+        return $this->count; 
     }
 
 }
